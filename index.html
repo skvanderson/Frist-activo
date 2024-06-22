@@ -4,8 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turismo da Proz</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #940794;
+            color:whitesmoke;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .card {
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 20px 0;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+        }
+        .card img {
+            max-width: 200px;
+            border-radius: 20px;
+            margin-right: 20px;
+        }
+        .card-content {
+            flex: 1;
+        }
+        .card button {
+            background-color: #940794;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .card button:hover {
+            background-color: #940794;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>Pontos Turísticos da Europa</h1>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <img src="https://super.abril.com.br/wp-content/uploads/2023/08/0814_coliseu_layout_site.jpg?crop=1&resize=1212,909" alt="Coliseu de Roma">
+            <div class="card-content">
+                <h2>Coliseu de Roma</h2>
+                <p>Foi construído entre os anos 70 e 82 d.C., tornou-se um dos grandes símbolos da Roma Antiga. Podia abrigar 45 mil espectadores. Ocorriam ali combates de gladiadores, execuções de criminosos por animais selvagens e encenação de batalhas históricas e mitológicas.</p>
+                <a href="coliseu.html"><button>Saiba Mais</button></a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://i0.wp.com/turismo.eurodicas.com.br/wp-content/uploads/2023/09/torre-eiffel.jpg?fit=750%2C500&ssl=1" alt="Torre Eiffel">
+            <div class="card-content">
+                <h2>Torre Eiffel</h2>
+                <p>A Torre Eiffel, localizada em Paris, França, foi inaugurada em 1889 como o arco de entrada da Exposição Universal. Com 324 metros de altura, é uma das estruturas mais reconhecidas do mundo e um símbolo icônico da França.</p>
+                <a href="torre-eiffel.html"><button>Saiba Mais</button></a>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/3f/e6/89/torre-de-belem.jpg?w=1200&h=1200&s=1" alt="Torre de Belém">
+            <div class="card-content">
+                <h2>Torre de Belém - Lisboa</h2>
+                <p>Torre, que possui 4 andares além do terraço, podemos ver a Sala do Governador, a Sala dos Reis, a Sala de Audiências e a Capela. Cada uma com suas distintas características. Mas é o terraço que rouba a atenção com sua privilegiada vista para o Rio Tejo e para dentro do bairro de Belém</p>
+                <a href="torreBelem.html"><button>Saiba Mais</button></a>
+            </div>
+        </div>
+
 </body>
 </html>
